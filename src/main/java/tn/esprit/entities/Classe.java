@@ -19,9 +19,5 @@ public class Classe  implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Integer codeClasse;
     private String titre ;
-    @Enumerated(value = EnumType.STRING)
-    private Niveau niveau ;
-    @OneToMany(mappedBy = "classe")
-    private List<CoursClassroom> coursClassroom ;
 
 }

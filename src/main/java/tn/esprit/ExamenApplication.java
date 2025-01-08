@@ -8,11 +8,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 @EntityScan(basePackages = "tn.esprit.entities")
-public class FoyerApplication {
+public class ExamenApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(FoyerApplication.class, args);
+		SpringApplication.run(ExamenApplication.class, args);
 	}
 
 }
